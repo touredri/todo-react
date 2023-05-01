@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 import './todo.css';
 import TodoItem from './TodoItem';
 
-const TodoList = ({ todoProp, checkHandler, delTodo }) => (
+const TodoList = ({
+  todoProp, checkHandler, delTodo, changeTask,
+}) => (
   <div className="todo-list">
     <ul>
       {todoProp.map((todo) => (
@@ -13,6 +15,7 @@ const TodoList = ({ todoProp, checkHandler, delTodo }) => (
           itemProp={todo}
           checkHandler={checkHandler}
           delTodo={delTodo}
+          changeTask={changeTask}
         />
       ))}
     </ul>
@@ -30,8 +33,7 @@ TodoList.propTypes = {
 };
 TodoList.propTypes = {
   checkHandler: PropTypes.func.isRequired,
-};
-TodoList.propTypes = {
   delTodo: PropTypes.func.isRequired,
+  changeTask: PropTypes.func.isRequired,
 };
 export default TodoList;

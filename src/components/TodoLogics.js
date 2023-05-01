@@ -49,6 +49,22 @@ const TodoLogics = () => {
     localStorage.setItem('todo', JSON.stringify(todos));
   }, [todos]);
 
+  const changeTask = (newtask, id) => {
+    if (!newtask) return;
+    setTodos((e) => {
+      const newTodos = e.map((todo) => {
+        if (todo.id === id) {
+          return {
+            ...todo,
+            title: newtask,
+          };
+        }
+        return todo;
+      });
+      return newTodos;
+    });
+  };
+
   return (
     <div className="todo-logics">
       <InputTodo todoProp={todos} addItem={addtask} />
@@ -56,6 +72,7 @@ const TodoLogics = () => {
         todoProp={todos}
         checkHandler={checkHandler}
         delTodo={delTodo}
+        changeTask={changeTask}
       />
     </div>
   );
