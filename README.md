@@ -5,7 +5,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 calculator ](#-calculator-)
+- [📖 todo ](#-todo-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -25,11 +25,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Calculator <a name="about-project"></a>
+# 📖 todo <a name="about-project"></a>
 
-This calculator project is based on an online website that allows users to do some mathematic operations.
+This todo project is based on an online website that allows users to do some task.
 
-**Calculator** In this project, we will built a basic website based on React which will allow user to do perform some mathematic operations.
+**todo** In this project, we will built a basic website based on React which will allow user to do perform some task.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,7 +43,7 @@ This calculator project is based on an online website that allows users to do so
 <details>
   <summary>Version Control</summary>
   <ul>
-    <li><a href="https://github.com/">Git Hub</a></li>
+    <li><a href="https://github.com/">GitHub</a></li>
   </ul>
 </details>
 
@@ -95,7 +95,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:touredri/calculator.git
+  git clone git@github.com:touredri/todo-react.git
 ```
 
 ### Install
@@ -148,7 +148,7 @@ GitHub Pages
 Example:
 
 ```sh
-https://touredri.github.io/calculator/
+https://touredri.github.io/todo-react/
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -182,7 +182,7 @@ https://touredri.github.io/calculator/
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/touredri/calculator/issues).
+Feel free to check the [issues page](https://github.com/touredri/todo-react/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
