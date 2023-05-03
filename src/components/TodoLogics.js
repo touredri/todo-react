@@ -1,8 +1,6 @@
 import './todo.css';
 import { useEffect, useState } from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { v4 as uuidv4 } from 'uuid';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import TodoList from './TodoList';
 import InputTodo from './InputTodo';
 

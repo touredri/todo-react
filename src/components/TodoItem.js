@@ -1,6 +1,5 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import './todo.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 import { FaTrashRestore } from 'react-icons/fa';
 import { AiFillEdit } from 'react-icons/ai';
